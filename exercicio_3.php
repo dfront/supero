@@ -1,12 +1,9 @@
 <?php
-  
 class DBConnection
 {  
-    
     private $host = 'localhost';
     private $user = 'user';
-    private $pass = 'password'; 
-   
+    private $pass = 'password';
     public static $instance;
 
     private function __construct(){}
@@ -18,7 +15,6 @@ class DBConnection
 	}	
 	return self::$instance;
     }   
-    
 }
 
 class Users
