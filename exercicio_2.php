@@ -21,7 +21,3 @@ function getCookieVar($var){
     }
     return false;
 }
-
-
-
-
